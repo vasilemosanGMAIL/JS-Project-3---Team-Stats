@@ -64,7 +64,7 @@ team.addPlayer("Lisa", "Leslie", 44);
 team.addPlayer("Bugs", "Bunny", 76);
 
 console.log("Player array:");
-for (i = 0; i < team._players.length; i++) {
+for (let i = 0; i < team._players.length; i++) {
   console.log(team._players[i]);
 }
 
@@ -73,6 +73,6 @@ team.addGame("Orhei", 30, 28);
 team.addGame("Riscani", 40, 30);
 
 console.log("Game array:");
-for (i = 0; i < team._games.length; i++) {
+for (let i = 0; i < team._games.length; i++) {
   console.log(team._games[i]);
 }
